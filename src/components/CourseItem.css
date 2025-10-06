@@ -1,0 +1,46 @@
+
+.course-item {
+  background-color: #1a1a2e;
+  border-radius: 16px;
+  padding: 18px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 82, 255, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.course-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 82, 255, 0.4), 0 0 25px rgba(0, 175, 255, 0.3);
+}
+
+.course-info h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: white;
+}
+
+.course-info p {
+  margin: 0;
+  font-size: 15px;
+  color: #a9a9a9;
+  line-height: 1.4;
+}
+
+.course-xp-reward {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.course-xp-reward span {
+  background: linear-gradient(90deg, #0052ff, #00bfff);
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}

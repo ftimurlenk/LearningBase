@@ -1,0 +1,30 @@
+
+.courses-container {
+  padding: 16px;
+  padding-bottom: 80px; /* For bottom nav */
+  max-width: 420px;
+  margin: 0 auto;
+  color: white;
+}
+
+.courses-container h1 {
+  font-size: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #00bfff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  align-self: flex-start; /* Align to the left */
+}

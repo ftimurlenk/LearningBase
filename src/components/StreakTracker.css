@@ -1,0 +1,42 @@
+.streak-tracker {
+  background-color: #1a1a2e;
+  border-radius: 16px; /* Slightly more rounded */
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid rgba(0, 82, 255, 0.3);
+  box-shadow: 0 0 15px rgba(0, 82, 255, 0.2);
+}
+
+.streak-tracker h3 {
+  margin: 0 0 15px;
+  font-size: 18px; /* Slightly larger */
+  color: white;
+  text-shadow: 0 0 8px rgba(0, 175, 255, 0.5);
+}
+
+.streak-days {
+  display: flex;
+  justify-content: space-between;
+}
+
+.streak-day {
+  width: 40px; /* Slightly larger */
+  height: 40px; /* Slightly larger */
+  border-radius: 50%;
+  background-color: #2c2c54;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px; /* Slightly larger */
+  color: #a9a9a9;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.streak-day.active {
+  background: linear-gradient(90deg, #0052ff, #00bfff);
+  color: white;
+  box-shadow: 0 0 12px rgba(0, 82, 255, 0.7), inset 0 0 5px rgba(255, 255, 255, 0.3);
+  border-color: #00bfff;
+}
